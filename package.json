@@ -34,13 +34,69 @@
   "author": "Tanmoy Thander",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.20",
-    "angular": "^1.8.2",
-    "angular-resource": "~1.5.8",
+    "angular": "npm:@neverendingsupport/angularjs@1.8.3-trial",
+    "angular-aria": "npm:@neverendingsupport/angularjs@1.8.3-trial-aria",
+    "angular-i18n": "npm:@neverendingsupport/angularjs@1.8.3-trial-i18n",
+    "angular-mocks": "npm:@neverendingsupport/angularjs@1.8.3-trial-mocks",
+    "angular-route": "npm:@neverendingsupport/angularjs@1.8.3-trial-route",
+    "angular-touch": "npm:@neverendingsupport/angularjs@1.8.3-trial-touch",
+    "angular-loader": "npm:@neverendingsupport/angularjs@1.8.3-trial-loader",
+    "angular-animate": "npm:@neverendingsupport/angularjs@1.8.3-trial-animate",
+    "angular-cookies": "npm:@neverendingsupport/angularjs@1.8.3-trial-cookies",
+    "angular-messages": "npm:@neverendingsupport/angularjs@1.8.3-trial-messages",
+    "angular-resource": "npm:@neverendingsupport/angularjs@1.8.3-trial-resource",
+    "angular-sanitize": "npm:@neverendingsupport/angularjs@1.8.3-trial-sanitize",
+    "angular-parse-ext": "npm:@neverendingsupport/angularjs@1.8.3-trial-parse-ext",
+    "angular-message-format": "npm:@neverendingsupport/angularjs@1.8.3-trial-message-format",
     "bootstrap": "^4.1.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "ngstorage": "^0.3.11",
     "popper.js": "^1.14.6",
     "request": "^2.88.0"
-  }
+  },
+  "overrides": {
+        "angular": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial"
+        },
+        "angular-aria": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-aria"
+        },
+        "angular-i18n": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-i18n"
+        },
+        "angular-mocks": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-mocks"
+        },
+        "angular-route": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-route"
+        },
+        "angular-touch": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-touch"
+        },
+        "angular-loader": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-loader"
+        },
+        "angular-animate": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-animate"
+        },
+        "angular-cookies": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-cookies"
+        },
+        "angular-messages": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-messages"
+        },
+        "angular-resource": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-resource"
+        },
+        "angular-sanitize": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-sanitize"
+        },
+        "angular-parse-ext": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-parse-ext"
+        },
+        "angular-message-format": {
+            ".": "npm:@neverendingsupport/angularjs@1.8.3-trial-message-format"
+        }
+    }
 }
